@@ -1,8 +1,8 @@
 # FastAPI ORM Template
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bybatkhuu/rest.fastapi-orm-template/3.create-release.yml?logo=GitHub)](https://github.com/bybatkhuu/rest.fastapi-orm-template/actions/workflows/3.create-release.yml)
-[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bybatkhuu/rest.fastapi-orm-template?logo=GitHub)](https://github.com/bybatkhuu/rest.fastapi-orm-template/releases)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/humblebeeai/rest.fastapi-orm-template/3.create-release.yml?logo=GitHub)](https://github.com/humblebeeai/rest.fastapi-orm-template/actions/workflows/3.create-release.yml)
+[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/humblebeeai/rest.fastapi-orm-template?logo=GitHub)](https://github.com/humblebeeai/rest.fastapi-orm-template/releases)
 
 This is a template repository for FastAPI with ORM (SQLAlchemy) projects.
 
@@ -31,12 +31,12 @@ This is a template repository for FastAPI with ORM (SQLAlchemy) projects.
 
 - You can use this template repository as reference to create a new repository with the same structure or clone the repository to start a new project. It will help you to organize your project structure and files. It works out of the box for most REST API services with ORM (SQLAlchemy).
 - You can customize (remove, modify or add) the files and directories as needed to meet your project requirements.
-- If you want to use the template repository directly, just click the **[Use this template](https://github.com/new?template_name=rest.fastapi-orm-template&template_owner=bybatkhuu)** button and follow the instructions.
-- You can use **cookiecutter** to generate a new project from **[cookiecutter](https://github.com/bybatkhuu/rest.fastapi-orm-template/tree/cookiecutter)** branch:
+- If you want to use the template repository directly, just click the **[Use this template](https://github.com/new?template_name=rest.fastapi-orm-template&template_owner=humblebeeai)** button and follow the instructions.
+- You can use **cookiecutter** to generate a new project from **[cookiecutter](https://github.com/humblebeeai/rest.fastapi-orm-template/tree/cookiecutter)** branch:
 
     ```sh
     # Clone the cookiecutter branch:
-    git clone -b cookiecutter https://github.com/bybatkhuu/rest.fastapi-orm-template.git
+    git clone -b cookiecutter https://github.com/humblebeeai/rest.fastapi-orm-template.git
 
     # Install cookiecutter:
     pip install cookiecutter
@@ -54,7 +54,7 @@ This is a template repository for FastAPI with ORM (SQLAlchemy) projects.
 [RECOMMENDED] For **docker** runtime:
 
 - Install [**docker** and **docker compose**](https://docs.docker.com/engine/install)
-    - Docker image: [**bybatkhuu/rest.fastapi-orm-template**](https://hub.docker.com/r/bybatkhuu/rest.fastapi-orm-template)
+    - Docker image: [**humblebeeai/rest.fastapi-orm-template**](https://hub.docker.com/r/humblebeeai/rest.fastapi-orm-template)
 
 For **standalone** runtime:
 
@@ -92,20 +92,20 @@ cd ~/workspaces/projects
 **OPTION A.** Clone the repository:
 
 ```sh
-git clone https://github.com/bybatkhuu/rest.fastapi-orm-template.git && \
+git clone https://github.com/humblebeeai/rest.fastapi-orm-template.git && \
     cd rest.fastapi-orm-template
 ```
 
 **OPTION B.** Clone the repository (for **DEVELOPMENT**: git + ssh key):
 
 ```sh
-git clone git@github.com:bybatkhuu/rest.fastapi-orm-template.git && \
+git clone git@github.com:humblebeeai/rest.fastapi-orm-template.git && \
     cd rest.fastapi-orm-template
 ```
 
 **OPTION C.** Download source code:
 
-1. Download archived **zip** or **tar.gz** file from [**releases**](https://github.com/bybatkhuu/rest.fastapi-orm-template/releases).
+1. Download archived **zip** or **tar.gz** file from [**releases**](https://github.com/humblebeeai/rest.fastapi-orm-template/releases).
 2. Extract it into the projects directory.
 3. Enter into the project directory.
 
@@ -326,7 +326,7 @@ pm2 stop ./pm2-process.json && \
 
 You can use the following environment variables to configure:
 
-[**`.env.example`**](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/.env.example):
+[**`.env.example`**](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/.env.example):
 
 ```sh
 ## --- Environment variable --- ##
@@ -367,7 +367,7 @@ FOT_API_PORT=8000
 
 You can customize the command arguments to debug or run the service with different commands.
 
-[**`compose.override.yml`**](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/templates/compose/compose.override.dev.yml):
+[**`compose.override.yml`**](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/templates/compose/compose.override.dev.yml):
 
 ```yml
     command: ["/bin/bash"]
@@ -426,52 +426,52 @@ mkdocs build
 
 ## 📚 Documentation
 
-- [Docs](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs)
-- [Home](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/README.md)
+- [Docs](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs)
+- [Home](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/README.md)
 
 ### Getting Started
 
-- [Prerequisites](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/prerequisites.md)
-- [Installation](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/installation.md)
-- [Quick start](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/quick-start.md)
-- [Configuration](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/configuration.md)
-- [Examples](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/examples.md)
+- [Prerequisites](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/prerequisites.md)
+- [Installation](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/installation.md)
+- [Quick start](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/quick-start.md)
+- [Configuration](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/configuration.md)
+- [Examples](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/getting-started/examples.md)
 
 ### API Documentation
 
-<!-- - [API Reference](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/api-reference.md) -->
-- [openapi.json](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/openapi.json)
-- [Error Codes](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/error-codes.md)
+<!-- - [API Reference](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/api-reference.md) -->
+- [openapi.json](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/openapi.json)
+- [Error Codes](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/api-docs/error-codes.md)
 
 ### Development
 
-- [Test](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/test.md)
-- [Build](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/build.md)
-- [Docs](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/docs.md)
-- [Scripts](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/scripts/README.md)
-- [CI/CD](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/cicd/README.md)
-- [File Structure](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/file-structure.md)
-- [Sitemap](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/sitemap.md)
-- [Related projects](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/related-projects.md)
-- [Roadmap](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/roadmap.md)
-- [Contributing](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/dev/contributing.md)
+- [Test](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/test.md)
+- [Build](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/build.md)
+- [Docs](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/docs.md)
+- [Scripts](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/scripts/README.md)
+- [CI/CD](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/cicd/README.md)
+- [File Structure](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/file-structure.md)
+- [Sitemap](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/sitemap.md)
+- [Related projects](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/related-projects.md)
+- [Roadmap](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/roadmap.md)
+- [Contributing](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/dev/contributing.md)
 
 ### Research
 
-- [Reports](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/research/reports.md)
-- [Benchmarks](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/research/benchmarks.md)
-- [References](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/research/references.md)
+- [Reports](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/research/reports.md)
+- [Benchmarks](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/research/benchmarks.md)
+- [References](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/research/references.md)
 
-### [Release Notes](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/release-notes.md)
+### [Release Notes](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/release-notes.md)
 
-### [Blog](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/blog/index.md)
+### [Blog](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/blog/index.md)
 
 ### About
 
-- [FAQ](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/about/faq.md)
-- [Authors](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/about/authors.md)
-- [Contact](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/about/contact.md)
-- [License](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/docs/pages/about/license.md)
+- [FAQ](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/about/faq.md)
+- [Authors](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/about/authors.md)
+- [Contact](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/about/contact.md)
+- [License](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/docs/pages/about/license.md)
 
 ---
 
