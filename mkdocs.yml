@@ -1,8 +1,8 @@
 site_name: FastAPI ORM Template
 site_description: "This is a template repository for FastAPI with ORM (SQLAlchemy) projects."
-site_url: https://bybatkhuu.github.io/rest.fastapi-orm-template
-repo_name: bybatkhuu/rest.fastapi-orm-template
-repo_url: https://github.com/bybatkhuu/rest.fastapi-orm-template
+site_url: https://humblebeeai.github.io/rest.fastapi-orm-template
+repo_name: humblebeeai/rest.fastapi-orm-template
+repo_url: https://github.com/humblebeeai/rest.fastapi-orm-template
 theme:
   name: material
   # name: readthedocs

@@ -2,7 +2,7 @@
 
 ## 🌎 Environment Variables
 
-[**`.env.example`**](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/.env.example):
+[**`.env.example`**](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/.env.example):
 
 ```sh
 ## --- Environment variable --- ##
@@ -43,7 +43,7 @@ FOT_API_PORT=8000
 
 You can customize the command arguments to debug or run the service with different commands.
 
-[**`compose.override.yml`**](https://github.com/bybatkhuu/rest.fastapi-orm-template/blob/main/templates/compose/compose.override.dev.yml):
+[**`compose.override.yml`**](https://github.com/humblebeeai/rest.fastapi-orm-template/blob/main/templates/compose/compose.override.dev.yml):
 
 ```yml
     command: ["/bin/bash"]

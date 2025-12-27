@@ -14,7 +14,7 @@ services:
     tty: true
 
   api:
-    image: bybatkhuu/rest.fastapi-orm-template:latest
+    image: humblebeeai/rest.fastapi-orm-template:latest
     build:
       context: .
     depends_on:

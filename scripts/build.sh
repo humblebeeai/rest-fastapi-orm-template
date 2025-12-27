@@ -25,7 +25,7 @@ fi
 ## --- Variables --- ##
 # Load from envrionment variables:
 # BASE_IMAGE
-IMG_REGISTRY=${IMG_REGISTRY:-bybatkhuu}
+IMG_REGISTRY=${IMG_REGISTRY:-humblebeeai}
 IMG_REPO=${PROJECT_SLUG:-rest.fastapi-orm-template}
 IMG_VERSION=${IMG_VERSION:-$(./scripts/get-version.sh)}
 IMG_SUBTAG=${IMG_SUBTAG:-}
