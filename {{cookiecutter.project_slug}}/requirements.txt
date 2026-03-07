@@ -14,5 +14,5 @@ psycopg[c]~=3.2.4
 alembic~=1.14.1
 beans-logging-fastapi~=1.1.1
 onion-config[pydantic-settings]~=5.1.1
-aiohttp~=3.11.12
+aiohttp~=3.13.3
 fastapi[all]~=0.115.8
