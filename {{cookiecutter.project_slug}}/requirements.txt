@@ -15,4 +15,4 @@ alembic~=1.14.1
 beans-logging-fastapi~=1.1.1
 onion-config[pydantic-settings]~=5.1.1
 aiohttp~=3.11.12
-fastapi[all]~=0.115.8
+fastapi[all]~=0.135.1
